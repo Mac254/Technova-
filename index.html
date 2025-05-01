@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova - Innovative Technology Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TechNova</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Innovate with TechNova</h1>
+            <p>Empowering businesses with cutting-edge technology solutions.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Our Solutions</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <img src="assets/images/cloud.png" alt="Cloud Icon">
+                <h3>Cloud Computing</h3>
+                <p>Scalable and secure cloud solutions to boost your business efficiency.</p>
+            </div>
+            <div class="feature-card">
+                <img src="assets/images/ai.png" alt="AI Icon">
+                <h3>AI Integration</h3>
+                <p>Leverage artificial intelligence to automate and optimize processes.</p>
+            </div>
+            <div class="feature-card">
+                <img src="assets/images/cyber-security.png" alt="Security Icon">
+                <h3>Cybersecurity</h3>
+                <p>Protect your data with our advanced security protocols.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Cloud Migration</h3>
+                <p>Seamless transition to cloud platforms with minimal downtime.</p>
+            </div>
+            <div class="service-card">
+                <h3>AI Development</h3>
+                <p>Custom AI solutions tailored to your business needs.</p>
+            </div>
+            <div class="service-card">
+                <h3>Security Audits</h3>
+                <p>Comprehensive security assessments and protection plans.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p class="price">$99/month</p>
+                <ul>
+                    <li>1 Project</li>
+                    <li>10 GB Storage</li>
+                    <li>Basic Support</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Pro</h3>
+                <p class="price">$199/month</p>
+                <ul>
+                    <li>5 Projects</li>
+                    <li>50 GB Storage</li>
+                    <li>Priority Support</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p class="price">$499/month</p>
+                <ul>
+                    <li>Unlimited Projects</li>
+                    <li>200 GB Storage</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"TechNova transformed our business with their cloud solutions!"</p>
+                <h4>Jane Doe, CEO</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"Their AI tools saved us countless hours."</p>
+                <h4>John Smith, CTO</h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Latest Insights</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <h3>The Future of AI</h3>
+                <p>Explore how AI is shaping the next decade.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>Cloud Security Tips</h3>
+                <p>Best practices for securing your cloud infrastructure.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About TechNova</h2>
+        <p>TechNova is a leader in providing innovative technology solutions. Our mission is to empower businesses to achieve their full potential through advanced technology and exceptional service.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" class="contact-form" action="contact.php" method="POST">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <span class="error-message"></span>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <span class="error-message"></span>
+            </div>
+            <button type="submit" class="cta-button">Send Message</button>
+            <div class="loading-spinner" style="display: none;"></div>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 TechNova. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
